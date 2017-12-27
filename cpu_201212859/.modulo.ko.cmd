@@ -1,0 +1,1 @@
+cmd_/home/acercado/Escritorio/memo_201212859/modulo.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/acercado/Escritorio/memo_201212859/modulo.ko /home/acercado/Escritorio/memo_201212859/modulo.o /home/acercado/Escritorio/memo_201212859/modulo.mod.o

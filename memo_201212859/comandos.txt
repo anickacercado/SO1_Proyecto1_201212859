@@ -1,0 +1,15 @@
+sudo su
+
+cd /home/acercado/Escritorio/memo_201212859/
+
+make
+
+insmod memo_201212859.ko
+
+dmesg | tail
+
+rmmod memo_201212859
+
+cat /proc/memo_201212859
+
+

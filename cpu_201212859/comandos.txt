@@ -1,0 +1,15 @@
+sudo su
+
+cd /home/acercado/Escritorio/cpu_201212859/
+
+make
+
+insmod cpu_201212859.ko
+
+dmesg | tail
+
+rmmod cpu_201212859
+
+cat /proc/cpu_201212859
+
+
